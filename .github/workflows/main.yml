@@ -73,7 +73,7 @@ jobs:
            dockerfile: ./Dockerfile
            context: ./
     
-  Deploy To EKS:
+  DeployToEKS:
     needs: BUILD_AND_PUBLISH
     runs-on: ubuntu-latest
     steps:
